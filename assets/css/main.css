@@ -78,8 +78,9 @@ a:after {
    Wrap Sections
    ========================================================================== */
 
-#headerwrap {
-	background: url(../img/header-bg.jpg) no-repeat center top;
+#headerwrap { 
+	background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(../img/StartupF.jpg) no-repeat center top;
+
 	margin-top: -10px;
 	padding-top:20px;
 	text-align:center;
@@ -97,6 +98,9 @@ a:after {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+
+
+
 }
 
 #headerwrap h1 {
@@ -118,11 +122,11 @@ a:after {
 #portfoliowrap {
 	background: url(../img/portfolio-bg.jpg) no-repeat center top;
 	margin-top: 0px;
-	padding-top:70px;
+	padding-top:40px;
 	text-align:center;
 	background-attachment: relative;
 	background-position: center center;
-	min-height: 300px;
+	min-height: 250px;
 	width: 100%;
 	
     -webkit-background-size: 100%;
@@ -495,4 +499,17 @@ En fait non
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+
+
+
+.boitetext{
+  background: rgba(0, 0, 0, 0.35);
+  border-radius: 3px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+  margin-left: 0px;
+  margin-right: 0px;
+  right: 0;
+  z-index: 2;
+  padding: 0 10px;
 }
